@@ -1,0 +1,91 @@
+body{
+    background-image: url("background.jpg");
+    background-size: auto;
+    
+}
+.title{
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    color:darkgoldenrod;
+    font-size: 60px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20vh;
+    margin-left:75vh;
+    margin-right:24vh;
+}
+button{
+    height: 15vh;
+    width: 17vh;
+    background-size: cover;
+}
+button:hover{
+    background-color: yellowgreen;
+    background-size:cover;
+}
+.r1{
+    display: flex;
+    flex-direction: row;
+}
+.r2{
+    display: flex;
+    flex-direction: row;
+}
+.r3{
+    display: flex;
+    flex-direction: row;
+}
+.c11{
+    border-top: 0px;
+    border-left: 0px;
+    border-bottom: 3px solid brown;
+    border-right: 3px solid brown;
+    border-radius: 10px 0 0 0;
+}
+.c12{
+    border: 3px solid brown;
+    border-top:0px;
+}
+.c13{
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 3px solid brown;
+    border-left: 3px solid brown;
+    border-radius: 0 10px 0 0;
+}
+.c21{
+    border-bottom: 3px solid brown;
+    border-right: 3px solid brown;
+    border-left:0px;
+    border-top:3px solid brown;
+}
+.c22{
+    border: 3px solid brown;
+}
+.c23{
+    border-bottom: 3px solid brown;
+    border-left: 3px solid brown;
+     border-right:0px;
+     border-top:3px solid brown;
+}
+
+.c31{
+    border-top: 3px solid brown;
+    border-right: 3px solid brown;
+    border-bottom: 0px;
+    border-left:0px;
+    border-radius: 0 0 0 10px;
+}
+.c32{
+    border: 3px solid brown;
+    border-bottom: 0px;
+}
+.c33{
+    border-bottom: 0px;
+    border-top: 3px solid brown;
+    border-left : 3px solid brown;
+    border-right : 0px;
+    border-radius: 0 0 10px 0;
+}
