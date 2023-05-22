@@ -13,8 +13,7 @@ body{
     display: flex;
     flex-direction: column;
     margin-top: 20vh;
-    margin-left:75vh;
-    margin-right:24vh;
+    margin-left:37vw;
 }
 button{
     height: 15vh;
@@ -22,7 +21,6 @@ button{
     background-size: cover;
 }
 button:hover{
-    background-color: yellowgreen;
     background-size:cover;
 }
 .r1{
@@ -88,4 +86,13 @@ button:hover{
     border-left : 3px solid brown;
     border-right : 0px;
     border-radius: 0 0 10px 0;
+}
+
+.reset{
+    background-color: grey;
+    margin-top:8vh;
+    margin-left: 47.5vw;
+    height: 5vh;
+    width:  10vh;
+    border-radius: 5px 5px 5px 5px ;
 }
